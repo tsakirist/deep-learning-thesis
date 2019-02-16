@@ -10,11 +10,6 @@ import numpy as np
 # Set fixed seed in order to get reproducible results
 np.random.seed(669)
 
-# Use ggplot style-sheet
-# plt.style.use('fivethirtyeight')
-# plt.style.use('ggplot')
-
-
 def set_checkpoint_name(options):
     """ Sets the checkpoint name for the h5. """
 
@@ -28,7 +23,6 @@ def set_checkpoint_name(options):
     name += ".h5"
 
     return name
-
 
 def main():
 
