@@ -1,0 +1,59 @@
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[>=stealth',
+		punktchain/.style={
+			rectangle, 
+			rounded corners, 
+%			 fill=black!10,
+			draw=black, very thick,
+			text width=4em, 
+			minimum height=3em, 
+			text centered},
+		arrow/.style={thick, draw, -stealth},
+		every join/.style={thick, -stealth},
+		start chain=1 going right, start chain=2 going right,
+		start chain=3 going right,
+		node distance=2cm and 1cm]
+		\node[punktchain, on chain=1, join] (a) {LSTM};
+		\node[punktchain, on chain=1, join] (b) {LSTM};
+		\node[punktchain, on chain=1, join] (c) {LSTM};
+		\node[on chain, on chain=1, join] (d) {$\dots$};
+		\node[punktchain, on chain=1, join] (e) {LSTM};
+		\node[below of=a] (xt23) {$x_{t-23}$};
+		\node[below of=b] (xt22) {$x_{t-22}$};
+		\node[below of=c] (xt21) {$x_{t-21}$};
+		\node[below of=d] (xt20) {$\dots$};
+		\node[below of=e] (xt) {$x_{t}$};
+		\draw [arrow] (xt23) -- (a);
+		\draw [arrow] (xt22) -- (b);
+		\draw [arrow] (xt21) -- (c);
+		\draw [arrow] (xt) -- (e);
+		\node[punktchain, on chain=2, above of=a, join] (da) {Dropout};
+		\node[punktchain, on chain=2,  join] (db) {Dropout};	
+		\node[punktchain, on chain=2,  join] (dc) {Dropout};
+		\node[on chain=2,join] (dd) {$\dots$};
+		\node[punktchain, on chain=2,  join] (de) {Dropout};
+		\draw [arrow] (a) -- (da);
+		\draw [arrow] (b) -- (db);
+		\draw [arrow] (c) -- (dc);
+		\draw [arrow] (e) -- (de);
+		\node[punktchain, on chain=3, above of=da, join] (la) {LSTM};
+		\node[punktchain, on chain=3, join] (lb) {LSTM};
+		\node[punktchain, on chain=3, join] (lc) {LSTM};
+		\node[on chain, on chain=3, join] (ld) {$\dots$};
+		\node[punktchain, on chain=3, join] (le) {LSTM};
+		\draw [arrow] (da) -- (la);
+		\draw [arrow] (db) -- (lb);
+		\draw [arrow] (dc) -- (lc);
+		\draw [arrow] (de) -- (le);
+		\node[punktchain, above of=le] (dfinal) {Dropout};
+		\draw [arrow] (le) -- (dfinal);
+		\node[punktchain, above of=dfinal] (dense) {Dense};
+		\draw [arrow] (dfinal) -- (dense);
+		\node [right of=dense] (output) {$x_{t+1}$};
+		\draw [arrow] (dense) -- (output);
+		\end{tikzpicture}
+		
+		\caption[An illustration of the LSTM model]{An illustration of the LSTM model. It takes as input the past 24 observations (timesteps) and produces an output sequence to the next layers. Finally, the output of the last cell of the second LSTM layer is used as input to the fully connected layer to produce a scalar output prediction. In-between layers we've introduced a Dropout layer in order to prevent the model from overfitting.}
+		\label{fig:lstm_keras_architecture}
+\end{figure}

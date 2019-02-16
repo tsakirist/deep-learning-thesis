@@ -1,0 +1,59 @@
+\select@language {english}
+\select@language {greek}
+\select@language {english}
+~\hfill \textbf {Page}\par 
+\contentsline {section}{\numberline {1}Introduction}{8}{section.1}
+\contentsline {section}{\numberline {2}Time Series}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Definition}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Components}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Stationarity}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Forecasting}{10}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}One-Step Ahead Forecasting}{10}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Multi-Step Ahead Forecasting}{10}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Forecasting Accuracy}{11}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {3}Artificial Neural Networks}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Artificial Neuron}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Activation Functions}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Sigmoid}{14}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Tanh}{15}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}ReLU}{16}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Network Training}{16}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Backpropagation}{16}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Supervised Learning}{18}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Unsupervised Learning}{18}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Regularization}{18}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Dropout}{18}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Early Stopping}{19}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5}Neural Network Architectures}{19}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Feedforward Neural Networks (FNN)}{19}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Recurrent Neural Networks (RNN)}{20}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Long-Short Term Memory Networks (LSTM)}{21}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Gated Recurrent Unit (GRU)}{23}{subsubsection.3.5.4}
+\contentsline {section}{\numberline {4}Data Preprocessing Techniques}{25}{section.4}
+\contentsline {subsection}{\numberline {4.1}Normalization}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Standardization}{25}{subsection.4.2}
+\contentsline {section}{\numberline {5}Software Tools}{26}{section.5}
+\contentsline {subsection}{\numberline {5.1}Deep Learning Frameworks}{26}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Scientific Libraries}{27}{subsection.5.2}
+\contentsline {section}{\numberline {6}Methodology}{28}{section.6}
+\contentsline {subsection}{\numberline {6.1}Data Preparation}{28}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Data Split}{28}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Supervised Learning}{29}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Data Preprocessing - Transformation}{29}{subsubsection.6.1.3}
+\contentsline {subsection}{\numberline {6.2}Keras Implementation Details}{30}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}LSTM Input/Output}{30}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}LSTM State}{30}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Callbacks}{31}{subsubsection.6.2.3}
+\contentsline {subsection}{\numberline {6.3}Hyperparameter Tuning}{31}{subsection.6.3}
+\contentsline {section}{\numberline {7}Experiments and Results}{32}{section.7}
+\contentsline {subsection}{\numberline {7.1}Setup}{32}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Datasets}{33}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Dataset Visualizations}{34}{subsubsection.7.2.1}
+\contentsline {subsection}{\numberline {7.3}Model Details}{36}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Evaluation Metrics and Results}{39}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Predictions Visualization}{40}{subsection.7.5}
+\contentsline {subsubsection}{\numberline {7.5.1}Beijing PM2.5 Dataset}{40}{subsubsection.7.5.1}
+\contentsline {subsubsection}{\numberline {7.5.2}Internet Traffic Dataset}{41}{subsubsection.7.5.2}
+\contentsline {subsubsection}{\numberline {7.5.3}Z\IeC {\"u}rich Sunspots Dataset}{42}{subsubsection.7.5.3}
+\contentsline {section}{\numberline {8}Conclusion}{43}{section.8}
+\contentsline {section}{References}{46}{section.8}

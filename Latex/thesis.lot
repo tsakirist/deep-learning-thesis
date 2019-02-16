@@ -1,0 +1,9 @@
+\select@language {english}
+\select@language {greek}
+\select@language {english}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Time series conversion to supervised learning.\relax }}{29}{table.caption.12}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Machine specifications.\relax }}{32}{table.caption.13}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Deep learning frameworks version.\relax }}{32}{table.caption.14}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Datasets details.\relax }}{33}{table.caption.15}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Framework evaluation metrics of the LSTM for every dataset\relax }}{39}{table.caption.21}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Tensorflow: LSTM vs GRU evaluation metrics for every dataset\relax }}{39}{table.caption.22}

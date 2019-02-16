@@ -1,0 +1,197 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Graves et~al.(2009)Graves, Liwicki, Fern\'{a}ndez, Bertolami, Bunke,
+  and Schmidhuber]{hand_writing}
+Alex Graves, Marcus Liwicki, Santiago Fern\'{a}ndez, Roman Bertolami, Horst
+  Bunke, and J\"{u}rgen Schmidhuber.
+\newblock {A Novel Connectionist System for Unconstrained Handwriting
+  Recognition}.
+\newblock \emph{IEEE Trans. Pattern Anal. Mach. Intell.}, 31\penalty0
+  (5):\penalty0 855--868, May 2009.
+\newblock ISSN 0162-8828.
+\newblock \doi{10.1109/TPAMI.2008.137}.
+\newblock \url{http://dx.doi.org/10.1109/TPAMI.2008.137}.
+
+\bibitem[Graves et~al.(2013)Graves, Mohamed, and Hinton]{speech_recognition}
+Alex Graves, Abdel{-}rahman Mohamed, and Geoffrey~E. Hinton.
+\newblock Speech recognition with deep recurrent neural networks.
+\newblock \emph{CoRR}, abs/1303.5778, 2013.
+\newblock \url{http://arxiv.org/abs/1303.5778}.
+
+\bibitem[Zhang et~al.(2016)Zhang, Xiong, and Su]{machine_translation}
+Biao Zhang, Deyi Xiong, and Jinsong Su.
+\newblock Recurrent neural machine translation.
+\newblock \emph{CoRR}, abs/1607.08725, 2016.
+\newblock \url{http://arxiv.org/abs/1607.08725}.
+
+\bibitem[{Ben Taieb} et~al.(2011){Ben Taieb}, {Bontempi}, {Atiya}, and
+  {Sorjamaa}]{multi_step}
+S.~{Ben Taieb}, G.~{Bontempi}, A.~{Atiya}, and A.~{Sorjamaa}.
+\newblock {A review and comparison of strategies for multi-step ahead time
+  series forecasting based on the NN5 forecasting competition}.
+\newblock \emph{ArXiv e-prints}, August 2011.
+\newblock \url{https://arxiv.org/abs/1108.3259}.
+
+\bibitem[Ruder(2016)]{gradient_descent}
+Sebastian Ruder.
+\newblock An overview of gradient descent optimization algorithms.
+\newblock \emph{CoRR}, abs/1609.04747, 2016.
+\newblock \url{http://arxiv.org/abs/1609.04747}.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{dropout}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1929--1958,
+  2014.
+\newblock \url{http://jmlr.org/papers/v15/srivastava14a.html}.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Orr, and M\"{u}ller]{eff_backprop}
+Yann LeCun, L{\'e}on Bottou, Genevieve~B. Orr, and Klaus-Robert M\"{u}ller.
+\newblock {Efficient BackProp}.
+\newblock In \emph{Neural Networks: Tricks of the Trade, This Book is an
+  Outgrowth of a 1996 NIPS Workshop}, pages 9--50, London, UK, UK, 1998.
+  Springer-Verlag.
+\newblock ISBN 3-540-65311-2.
+\newblock \url{http://dl.acm.org/citation.cfm?id=645754.668382}.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{nature_dl}
+Yann LeCun, Y~Bengio, and Geoffrey Hinton.
+\newblock Deep learning.
+\newblock In \emph{Nature}, volume 521, pages 436--44, 05 2015.
+\newblock \url{http://dx.doi.org/10.1038/nature14539}.
+
+\bibitem[Werbos(1990)]{BPTT}
+P.~J. Werbos.
+\newblock Backpropagation through time: what it does and how to do it.
+\newblock \emph{Proceedings of the IEEE}, 78\penalty0 (10):\penalty0
+  1550--1560, Oct 1990.
+\newblock ISSN 0018-9219.
+\newblock \url{http://dx.doi.org/10.1109/5.58337}.
+
+\bibitem[Bengio et~al.(1994)Bengio, Simard, and
+  Frasconi]{rnn_learn_difficulties}
+Y.~Bengio, P.~Simard, and P.~Frasconi.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock \emph{IEEE Transactions on Neural Networks}, 5\penalty0 (2):\penalty0
+  157--166, Mar 1994.
+\newblock ISSN 1045-9227.
+\newblock \doi{10.1109/72.279181}.
+\newblock \url{https://dl.acm.org/citation.cfm?id=2328340}.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{LSTM}
+Sepp Hochreiter and J\"{u}rgen Schmidhuber.
+\newblock {Long Short-Term Memory}.
+\newblock \emph{Neural Comput.}, 9\penalty0 (8):\penalty0 1735--1780, November
+  1997.
+\newblock ISSN 0899-7667.
+\newblock \url{http://dx.doi.org/10.1162/neco.1997.9.8.1735}.
+
+\bibitem[Gers et~al.(1999)Gers, Schmidhuber, and Cummins]{LSTM_forget}
+Felix~A. Gers, Jürgen Schmidhuber, and Fred Cummins.
+\newblock {Learning to Forget: Continual Prediction with LSTM}.
+\newblock \emph{Neural Computation}, 12:\penalty0 2451--2471, 1999.
+\newblock \url{https://dl.acm.org/citation.cfm?id=1121915}.
+
+\bibitem[Olah(2015)]{colah_blog}
+Christopher Olah.
+\newblock Understanding {LSTM} {N}etworks.
+\newblock \url{http://colah.github.io/posts/2015-08-Understanding-LSTMs/},
+  2015.
+
+\bibitem[Cho et~al.(2014)Cho, van Merrienboer, G{\"{u}}l{\c{c}}ehre, Bougares,
+  Schwenk, and Bengio]{GRU}
+Kyunghyun Cho, Bart van Merrienboer, {\c{C}}aglar G{\"{u}}l{\c{c}}ehre, Fethi
+  Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock {Learning Phrase Representations using {RNN} Encoder-Decoder for
+  Statistical Machine Translation}.
+\newblock \emph{CoRR}, abs/1406.1078, 2014.
+\newblock \url{http://arxiv.org/abs/1406.1078}.
+
+\bibitem[Koch et~al.(2017)Koch, Wujek, Golovidov, and
+  Gardner]{Koch2017AutomatedHT}
+Patrick Koch, Brett Wujek, Oleg Golovidov, and Steven Gardner.
+\newblock Automated hyperparameter tuning for effective machine learning.
+\newblock 2017.
+\newblock
+  \url{https://support.sas.com/resources/papers/proceedings17/SAS0514-2017.pdf}.
+
+\bibitem[{Jeremy Jordan}(2017)]{hyperparameter_tuning_blog}
+{Jeremy Jordan}.
+\newblock {Hyperparameter tuning for machine learning models}.
+\newblock \url{https://www.jeremyjordan.me/hyperparameter-tuning/}, 2017.
+
+\bibitem[Tieleman and Hinton(2012)]{rmsprop}
+T.~Tieleman and G.~Hinton.
+\newblock {Lecture 6e---RmsProp: Divide the gradient by a running average of
+  its recent magnitude}.
+\newblock Coursera: Neural Networks for Machine Learning, 2012.
+\newblock
+  \url{https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf}.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville]{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock \emph{{Deep Learning}}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem[{Lipton} et~al.(2015){Lipton}, {Berkowitz}, and {Elkan}]{RNN}
+Z.~C. {Lipton}, J.~{Berkowitz}, and C.~{Elkan}.
+\newblock {A Critical Review of Recurrent Neural Networks for Sequence
+  Learning}.
+\newblock \emph{ArXiv e-prints 1506.00019 cs.LG}, may 2015.
+
+\bibitem[Chollet et~al.(2015)]{keras}
+Fran\c{c}ois Chollet et~al.
+\newblock Keras.
+\newblock \url{https://keras.io}, 2015.
+
+\bibitem[{Sorjamaa, Antti and Hao, Jin and Reyhani, Nima and Ji, Yongnan and
+  Lendasse, Amaury}(2007)]{Sorjamaa:2007:MLP:1316076.1316131}
+{Sorjamaa, Antti and Hao, Jin and Reyhani, Nima and Ji, Yongnan and Lendasse,
+  Amaury}.
+\newblock {Methodology for Long-term Prediction of Time Series}.
+\newblock \emph{Neurocomput.}, 70\penalty0 (16-18):\penalty0 2861--2869,
+  October 2007.
+\newblock ISSN 0925-2312.
+\newblock \doi{10.1016/j.neucom.2006.06.015}.
+\newblock \url{http://dx.doi.org/10.1016/j.neucom.2006.06.015}.
+
+\bibitem[Kingma and Ba(2014)]{adam}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock \emph{CoRR}, abs/1412.6980, 2014.
+\newblock URL \url{http://arxiv.org/abs/1412.6980}.
+\newblock \url{http://arxiv.org/abs/1412.6980}.
+
+\bibitem[{Rob J Hyndman and Anne B Koehler}(2006)]{Hyndman06anotherlook}
+{Rob J Hyndman and Anne B Koehler}.
+\newblock Another look at measures of forecast accuracy.
+\newblock \emph{International Journal of Forecasting}, pages 679--688, 2006.
+\newblock \url{https://doi.org/10.1016/j.ijforecast.2006.03.001}.
+
+\bibitem[Ben~Taieb and Bontempi(2011)]{BenTaieb:2011:RMT:2117684.2118184}
+Souhaib Ben~Taieb and Gianluca Bontempi.
+\newblock {Recursive Multi-step Time Series Forecasting by Perturbing Data}.
+\newblock In \emph{Proceedings of the 2011 IEEE 11th International Conference
+  on Data Mining}, pages 695--704. IEEE Computer Society, 2011.
+\newblock \doi{10.1109/ICDM.2011.123}.
+\newblock \url{https://doi.org/10.1109/ICDM.2011.123}.
+
+\bibitem[Bontempi et~al.(2012)Bontempi, Taieb, and
+  Borgne]{conf/ebiss/BontempiTB12}
+Gianluca Bontempi, Souhaib~Ben Taieb, and Yann-Aël~Le Borgne.
+\newblock {Machine Learning Strategies for Time Series Forecasting}.
+\newblock volume 138 of \emph{Lecture Notes in Business Information
+  Processing}, pages 62--77. Springer, 2012.
+\newblock
+  \url{https://link.springer.com/chapter/10.1007%2F978-3-642-36318-4_3}.
+
+\end{thebibliography}

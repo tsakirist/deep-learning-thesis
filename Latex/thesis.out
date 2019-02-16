@@ -1,0 +1,55 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Time Series}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Definition}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Components}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Stationarity}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Forecasting}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.4.1}{One-Step Ahead Forecasting}{subsection.2.4}% 7
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Multi-Step Ahead Forecasting}{subsection.2.4}% 8
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Forecasting Accuracy}{subsection.2.4}% 9
+\BOOKMARK [1][-]{section.3}{Artificial Neural Networks}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Artificial Neuron}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Activation Functions}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Sigmoid}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Tanh}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.3}{ReLU}{subsection.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Network Training}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Backpropagation}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Supervised Learning}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Unsupervised Learning}{subsection.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Regularization}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Dropout}{subsection.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Early Stopping}{subsection.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.5}{Neural Network Architectures}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Feedforward Neural Networks \(FNN\)}{subsection.3.5}% 24
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Recurrent Neural Networks \(RNN\)}{subsection.3.5}% 25
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Long-Short Term Memory Networks \(LSTM\)}{subsection.3.5}% 26
+\BOOKMARK [3][-]{subsubsection.3.5.4}{Gated Recurrent Unit \(GRU\)}{subsection.3.5}% 27
+\BOOKMARK [1][-]{section.4}{Data Preprocessing Techniques}{}% 28
+\BOOKMARK [2][-]{subsection.4.1}{Normalization}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.2}{Standardization}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{Software Tools}{}% 31
+\BOOKMARK [2][-]{subsection.5.1}{Deep Learning Frameworks}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.2}{Scientific Libraries}{section.5}% 33
+\BOOKMARK [1][-]{section.6}{Methodology}{}% 34
+\BOOKMARK [2][-]{subsection.6.1}{Data Preparation}{section.6}% 35
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Data Split}{subsection.6.1}% 36
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Supervised Learning}{subsection.6.1}% 37
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Data Preprocessing - Transformation}{subsection.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.2}{Keras Implementation Details}{section.6}% 39
+\BOOKMARK [3][-]{subsubsection.6.2.1}{LSTM Input/Output}{subsection.6.2}% 40
+\BOOKMARK [3][-]{subsubsection.6.2.2}{LSTM State}{subsection.6.2}% 41
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Callbacks}{subsection.6.2}% 42
+\BOOKMARK [2][-]{subsection.6.3}{Hyperparameter Tuning}{section.6}% 43
+\BOOKMARK [1][-]{section.7}{Experiments and Results}{}% 44
+\BOOKMARK [2][-]{subsection.7.1}{Setup}{section.7}% 45
+\BOOKMARK [2][-]{subsection.7.2}{Datasets}{section.7}% 46
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Dataset Visualizations}{subsection.7.2}% 47
+\BOOKMARK [2][-]{subsection.7.3}{Model Details}{section.7}% 48
+\BOOKMARK [2][-]{subsection.7.4}{Evaluation Metrics and Results}{section.7}% 49
+\BOOKMARK [2][-]{subsection.7.5}{Predictions Visualization}{section.7}% 50
+\BOOKMARK [3][-]{subsubsection.7.5.1}{Beijing PM2.5 Dataset}{subsection.7.5}% 51
+\BOOKMARK [3][-]{subsubsection.7.5.2}{Internet Traffic Dataset}{subsection.7.5}% 52
+\BOOKMARK [3][-]{subsubsection.7.5.3}{Z\374rich Sunspots Dataset}{subsection.7.5}% 53
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 54
+\BOOKMARK [1][-]{section.8}{References}{}% 55

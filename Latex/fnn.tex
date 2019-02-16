@@ -1,0 +1,104 @@
+\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}[shorten >=1pt,->, node distance=\layersep]
+			\tikzstyle{every pin edge}=[<-, shorten <=1pt]
+			\tikzstyle{neuron}=[circle, draw=black, minimum size=17pt, inner sep=0pt]
+			\tikzstyle{input neuron}=[neuron, fill=black!10];
+			\tikzstyle{hidden neuron}=[neuron, fill=black!30];
+			\tikzstyle{output neuron}=[neuron, fill=black!50];
+			\tikzstyle{annot} = [text width=4em, text centered]
+			
+			% Draw the input nodes, name contains the string 1,2,...,n and \x contains the offset in number 0,1,2,3,4
+			\foreach \name [count=\x from 0] in {1,...,4,n} {
+				\ifnum \x=3
+					\node at (0, -\x) {$\vdots$};
+				\else
+					\node[input neuron, pin=left:Input \name] (I-\name) at (0, -\x) {};
+				\fi
+			}
+			
+			% Draw the hidden nodes
+			\foreach \name [count=\x from 0] in {1,...,4,n} {
+				\ifnum \x=3
+					\node at (\layersep, -\x) {$\vdots$};
+				\else
+					\node[hidden neuron] (H1-\name) at (\layersep, -\x) {};
+				\fi
+			}
+		
+			% Draw the hidden nodes
+			\foreach \name [count=\x from 0] in {1,...,4,n} {
+				\ifnum \x=3
+					\node at (2*\layersep, -\x) {$\vdots$};
+				\else
+					\node[hidden neuron] (H2-\name) at (2*\layersep, -\x) {};
+				\fi
+			}
+			
+			% Draw the output layer nodes
+%			\node[output neuron, pin={[pin edge={->}]right:Output}, right of=H2-2] (O) {};
+			\foreach \name [count=\x from 1] in {1,2,n} {
+				\ifnum \x=2
+					\node at (3*\layersep, -\x) {$\vdots$};
+				\else
+					\node[output neuron,  pin={[pin edge={->}]right:Output \name}] (O-\name) at (3*\layersep, -\x) {};
+				\fi
+			}
+			
+			% Connect every node in the input layer with every node in the
+			% 1 hidden layer.
+			\foreach \source [count=\xs from 0] in {1,...,4,n} {
+				\foreach \dest [count=\xd from 0] in {1,...,4,n} {
+					\ifnum \xd=3
+					% do nothing
+					\else
+						\ifnum \xs=3
+						% do nothing
+						\else
+							\path (I-\source) edge (H1-\dest);
+						\fi
+					\fi
+				}
+			}
+		
+			% Connect every node in the input layer with every node in the
+			% 2 hidden layer.
+			\foreach \source [count=\xs from 0] in {1,...,4,n} {
+				\foreach \dest [count=\xd from 0] in {1,...,4,n} {
+					\ifnum \xd=3
+						% do nothing
+						\else
+							\ifnum \xs=3
+							% do nothing
+							\else
+								\path (H1-\source) edge (H2-\dest);
+							\fi
+					\fi
+				}
+			}
+
+			% Connect every node in the 2 hidden layer with the output layer
+			\foreach \source [count=\xs from 0] in {1,...,4,n} {
+				\foreach \dest [count=\xd from 1] in {1,2,n} {
+					\ifnum \xd=2
+						% do nothing
+					\else
+						\ifnum \xs=3
+							% do nothing
+						\else
+							\path (H2-\source) edge (O-\dest);
+						\fi
+					\fi
+				}
+			}
+			
+			% Annotate the layers
+			\node[annot, above of=H1-1, node distance=1cm] (hl1) {Hidden layer 1};
+			\node[annot, above of=H2-1, node distance=1cm] (hl2) {Hidden layer 2};
+			\node[annot, left of=hl1] {Input layer};
+			\node[annot, right of=hl2] {Output layer};
+			\end{tikzpicture}
+		
+			\caption{Feedforward neural network.}
+			\label{fig:fnn}
+		\end{figure}

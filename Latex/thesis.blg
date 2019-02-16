@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: unsrtnat.bst
+Database file #1: thesis.bib
+Warning--empty booktitle in Koch2017AutomatedHT
+Warning--empty booktitle in conf/ebiss/BontempiTB12
+You've used 25 entries,
+            2481 wiz_defined-function locations,
+            742 strings with 9886 characters,
+and the built_in function-call counts, 9853 in all, are:
+= -- 871
+> -- 477
+< -- 18
++ -- 188
+- -- 138
+* -- 708
+:= -- 1569
+add.period$ -- 110
+call.type$ -- 25
+change.case$ -- 49
+chr.to.int$ -- 25
+cite$ -- 27
+duplicate$ -- 501
+empty$ -- 892
+format.name$ -- 172
+if$ -- 2136
+int.to.chr$ -- 1
+int.to.str$ -- 26
+missing$ -- 22
+newline$ -- 165
+num.names$ -- 75
+pop$ -- 198
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 314
+stack$ -- 0
+substring$ -- 371
+swap$ -- 102
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 172
+warning$ -- 2
+while$ -- 74
+width$ -- 0
+write$ -- 392
+(There were 2 warnings)

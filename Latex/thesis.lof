@@ -1,0 +1,22 @@
+\select@language {english}
+\select@language {greek}
+\select@language {english}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Artificial Neuron Model.\relax }}{14}{figure.caption.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sigmoid activation function.\relax }}{15}{figure.caption.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Hyperbolic tangent activation function.\relax }}{15}{figure.caption.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Rectifier Linear Unit activation function - ReLU.\relax }}{16}{figure.caption.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Neural network model with Dropout}}{18}{figure.caption.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Early stopping}}{19}{figure.caption.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Feedforward neural network.\relax }}{20}{figure.caption.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Standard recurrent neural network}}{20}{figure.caption.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Internal structure of an LSTM unit}}{23}{figure.caption.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Internal structure of a GRU unit}}{24}{figure.caption.10}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Holdout validation.\relax }}{28}{figure.caption.11}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Beijing PM2.5 dataset visualization.\relax }}{34}{figure.caption.16}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Internet traffic dataset visualization.\relax }}{35}{figure.caption.17}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Z\IeC {\"u}rich sunspots dataset visualization.\relax }}{35}{figure.caption.18}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Model's architecture with each layer's I/O dimensions.\relax }}{37}{figure.caption.19}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces An illustration of the LSTM model}}{38}{figure.caption.20}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Out-of-sample one-step-ahead forecasts on the Beijing PM2.5 dataset}}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Out-of-sample one-step-ahead forecasts on the Internet Traffic dataset}}{41}{figure.caption.24}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Out-of-sample one-step-ahead forecasts on the Z\IeC {\"u}rich sunspots dataset}}{42}{figure.caption.25}
